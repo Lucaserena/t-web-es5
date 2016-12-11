@@ -1,0 +1,54 @@
+table {
+    border: 1px solid #000;   
+    background-color: white;
+    margin:auto;
+    width:1200px;
+
+}
+
+ .center {
+     text-align:center;
+  }
+ 
+  
+table th {
+   // border:2px solid #ffffff;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.3em;
+}
+
+.right p { 
+    float:right;
+   }
+   
+ h1{
+   text-align: center;
+ }
+ 
+ #main {
+    margin:auto;
+    width:90%;
+ }
+ 
+ #banner, #w3c{
+       background-color: black;
+   }
+ 
+ fieldset{
+     width:24em;
+     margin:auto;
+ }
+ table tr:nth-child(odd) td{
+       background-color: white;
+ }
+ table tr:nth-child(even) td{
+       background-color: #dad9d4;
+}
+
+#w3c {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+ 
